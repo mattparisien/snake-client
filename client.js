@@ -19,9 +19,9 @@ const connect = function() {
   conn.on('connect', () => {
     conn.write('Name: MP');
 
-    setInterval(() => {
-      conn.write('Move: up')
-    }, 50)
+    // setInterval(() => {
+    //   conn.write('Move: up')
+    // }, 50)
 
   });
 
