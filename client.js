@@ -5,11 +5,12 @@
 // "Move: right" - move left one square (unless facing left)
 
 const net = require('net');
+const { IP, PORT } = require('./constants');
 
 const connect = function() {
   const conn = net.createConnection({
-    port: 50541,
-    host: 'localhost'
+    port: PORT,
+    host: IP
   });
 
   conn.on('data', (data) => {
