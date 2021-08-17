@@ -11,6 +11,12 @@ const handleUserInput = function(key) {
     connection.write('Move: down') 
   } else if (key === 'd') {
     connection.write('Move: right')
+  } else if (key === 'b') {
+    connection.write('Say: Hey girl')
+  } else if (key === 'z') {
+    connection.write('Say: I\'m winning!')
+  } else if (key === 'y') {
+    connection.write('Say: I like bananas.')
   }
 };
 
@@ -21,9 +27,6 @@ const setUpInput = function(conn) {
   stdin.setEncoding('utf8');
   stdin.resume();
   stdin.on('data', (data)  => {
-    if (data === 'm') {
-      console.log('hey')
-    }
     return handleUserInput(data);
   })
   return stdin;
