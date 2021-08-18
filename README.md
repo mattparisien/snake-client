@@ -13,7 +13,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Credits
 
-This game is inspired by the game [Snek](https://store.steampowered.com/app/765590/Coop_SNEK_Online/) created by [Tania Rascia](https://www.taniarascia.com/). The server code for this game was not written from scratch -  it is a refashioned version of Tania Rascia's game.
+This game is inspired by the game [Snek](https://store.steampowered.com/app/765590/Coop_SNEK_Online/) created by [Tania Rascia](https://www.taniarascia.com/). The server code for this game was not written from scratch -  it is a refashioned version of Rascia's game.
 
 ## Final Product
 
