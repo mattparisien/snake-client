@@ -17,8 +17,9 @@ This game is inspired by the game [Snek](https://store.steampowered.com/app/7655
 
 ## Final Product
 
+![<img width="893" alt="snake-game-interface" src="https://user-images.githubusercontent.com/63109316/129914344-4b7eac24-355c-439a-92ee-2e15f845855e.png">](#)
 !["screenshot description"](#)
-!["screenshot description"](#)
+
 
 
 ## Getting Started
