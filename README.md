@@ -42,3 +42,7 @@ This game is inspired by the game [Snek](https://store.steampowered.com/app/7655
 The following functions have been implemented: 
 * setUpInput(): Sets up user input using the process object and its standardIn property, also establishing a connection to the server using the conn object in clients.js. This function uses the 'data' event handler to listen for input data from the user, and returns the handleUserInput() function, which will initiate a specific action or message, if the data matches the conditions of handleUserInput().
 * handleUserInput(): Waits for user to press a computer key, and loops through two objects in constants.js to match the key with a key-value pair. The moves object has snake movements set as its values, while its keys correspond to the computer keys themselves. Similarly, the msgMappings object contains strings as values, which will be printed if the string's corresponding key matches the computer key pressed by the user. 
+
+### **[play.js](https://github.com/mattparisien/snake-client/blob/main/play.js)**
+* This file is in charge of game initiation. It is responsible for calling setUpInput(), and includes an invokation of the connect function as its argument. This double invokation triggers a connection between the process object, located inside of setUpInput, and the connect object - which allows for the user's input to be recognized as client input.
+
