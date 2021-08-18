@@ -25,7 +25,6 @@ This game is inspired by the game [Snek](https://store.steampowered.com/app/7655
 - Run the development snake client using the `node play.js` command.
 
 ## File Structure & Description 
-***
 
 ### **[client.js](https://github.com/mattparisien/snake-client/blob/main/client.js)**
 * This file sets up the client for a successful connection to the game server. 
