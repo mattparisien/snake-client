@@ -9,13 +9,13 @@ const handleUserInput = function(key) {
 
   for (const button in moves) {
     if (button === key) {
-      connection.write(moves[button])
+      connection.write(moves[button]);
     }
-  };
+  }
 
   for (const button in msgMappings) {
     if (button === key) {
-      connection.write(`Say: ${msgMappings[button]}`);
+      connection.write(msgMappings[button]);
     }
   }
 };

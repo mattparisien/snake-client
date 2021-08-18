@@ -5,13 +5,13 @@ const moves = {
   w: 'Move: up',
   a: 'Move: left',
   s: 'Move: down',
-  d: 'Move: right',  
+  d: 'Move: right'  
 };
 
 const msgMappings = {
-  b: 'I\'m winning this game!',
-  z: 'I like bananas!',
-  y: 'I really suck at this'
+  b: 'Say: I\'m winning this game!',
+  z: 'Say: I like bananas!',
+  y: 'Say: I really suck at this.'
 }
 
 module.exports = {
