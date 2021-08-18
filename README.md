@@ -20,6 +20,6 @@ Before you can run this client, you will need to be running the server side whic
 ## File Structure & Description 
 ***
 
-### **[client.js]('./client.js')**
+### **[client.js]('https://github.com/mattparisien/snake-client/blob/main/client.js')**
 
 
