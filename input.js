@@ -5,15 +5,13 @@ const handleUserInput = function(key) {
 
   if (key === '\u0003') {
     process.exit();
-  } else if (key === moves.moveUp) {
-    connection.write('Move: up');
-  } else if (key === moves.moveLeft) {
-    connection.write('Move: left');
-  } else if (key === moves.moveDown) {
-    connection.write('Move: down');
-  } else if (key === moves.moveRight) {
-    connection.write('Move: right');
   }
+
+  for (const button in moves) {
+    if (button === key) {
+      connection.write(moves[button])
+    }
+  };
 
   for (const button in msgMappings) {
     if (button === key) {

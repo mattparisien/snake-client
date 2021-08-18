@@ -2,10 +2,10 @@ const IP =  '192.168.0.158';
 const PORT = 50541;
 
 const moves = {
-  moveUp: 'w',
-  moveLeft: 'a',
-  moveDown: 's',
-  moveRight: 'd',  
+  w: 'Move: up',
+  a: 'Move: left',
+  s: 'Move: down',
+  d: 'Move: right',  
 };
 
 const msgMappings = {
