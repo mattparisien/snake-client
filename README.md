@@ -38,5 +38,5 @@ Before you can run this client, you will need to be running the server side whic
 ### **[input.js](https://github.com/mattparisien/snake-client/blob/main/input.js)**
 * This file handles all of the user input on the client side.
 The following functions have been implemented: 
-* setUpInput(): Sets up user input using the process object and its standardIn property. Also establishes a connection to the server using the conn object in clients.js
+* setUpInput(): Sets up user input using the process object and its standardIn property, also establishing a connection to the server using the conn object in clients.js. This function uses the 'data' event handler to listen for input data from the user, and returns the handleUserInput() function, which will initiate a specific action or message, if the data matches the conditions of handleUserInput().
 * handleUserInput(): Waits for user to press a computer key, and loops through two objects in constants.js to match the key with a key-value pair. The moves object has snake movements set as its values, while its keys correspond to the computer keys themselves. Similarly, the msgMappings object contains strings as values, which will be printed if the string's corresponding key matches the computer key pressed by the user. 
